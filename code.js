@@ -42,12 +42,12 @@ function Fibonacci(index, list)
 function Result(sum)
 {
 
-	var ShowResult = document.getElementById('result');
-	var digits = [];
-	var URL_Digits = sum.toString();
+	var ShowResult 	= document.getElementById('result');
+	var digits 	= [];
+	var URL_Digits 	= sum.toString();
 	
 	//Clearing array
-	digits.length = 0;
+	digits.length 	= 0;
 
 	
 	//Clearing previous result
@@ -59,11 +59,10 @@ function Result(sum)
 	
 
 	//Getting number of digits
-	var numberOfDigits = Math.log(sum) * Math.LOG10E + 1;
-	numberOfDigits = Math.floor(numberOfDigits)
+	var numberOfDigits 	= Math.log(sum) * Math.LOG10E + 1;
+	numberOfDigits 		= Math.floor(numberOfDigits)
 	
 	
-	//
 	for(var element = 0; element < numberOfDigits; element++)
 	{
 		
